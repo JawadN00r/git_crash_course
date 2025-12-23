@@ -1,0 +1,15 @@
+# Example gitattributes for the crash course (copies of recommended repo policy)
+* text=auto
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.pdf binary
+
+# Export ignore for docs and internal GitHub workflows
+/.github export-ignore
+/docs export-ignore
